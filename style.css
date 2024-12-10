@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;   
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-color: #d14324;
+    padding: 50px;
+}
+
+.main-div {
+    width: 1000px;
+    height: auto;
+    background-color: white;
+    margin: 5% auto;
+    border-radius: 20px;
+}
+
+.main-div .nav-div header {
+    width: 100%;
+    height: 80px;
+   border-radius: 20px 20px 0 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 90px 0px;
+}
+
+.main-div .nav-div header div {
+    display: flex;
+    
+}
+
+.main-div .nav-div header div img {
+    width: 140px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.main-div .nav-div header .logo {
+    margin-top: 25px;
+}
+
+.main-div .nav-div header .nav-links ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 25px;
+}
+
+.main-div .nav-div header .nav-links ul li{
+    /* color: rgb(47, 42, 42); */
+ 
+    margin-left: 40px;
+}
+
+.main-div .home-page {
+    margin: 70px 0px 190px 0px;
+    column-count: 2;
+    padding: 0px 100px 80px;
+}
+
+.main-div .home-page .content-1 {
+    margin-top: 60px;
+}
+
+.main-div .home-page .content-1 h1 {
+    font-size: 37px;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.main-div .home-page .content-1 h1 span{
+    font-weight: 400;
+}
+
+.main-div .home-page .content-1 p {
+    font-size: 16px;
+    color: #3d3836;
+}
+
+.main-div .home-page .content-1 .btn {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #d14324;
+    color: white;
+    text-transform: capitalize;
+}
+
+.main-div .home-page .image img {
+    width: 300px;
+    height: 300px;
+}
+@media (max-width:1060px){
+    .main-div .home-page .content-1 p {
+        color: #d14324;
+    }
+}
